@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>MCC-01</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f5f5f5;
+margin:40px;
+}
+
+.box{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0px 0px 15px #ddd;
+max-width:800px;
+margin:auto;
+}
+
+h1{
+color:#004ea2;
+}
+
+.button{
+display:inline-block;
+padding:15px;
+margin:10px;
+background:#0059d6;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.green{
+width:25px;
+height:25px;
+background:#00d000;
+border-radius:50%;
+display:inline-block;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>MCC-01 배수펌프장</h1>
+
+<p>
+
+현재상태
+
+<span class="green"></span>
+
+정상
+
+</p>
+
+<a class="button" href="#">
+PLC 정보
+</a>
+
+<a class="button" href="#">
+PLC 버전
+</a>
+
+<a class="button" href="#">
+IO LIST
+</a>
+
+<a class="button" href="#">
+PLC P/G
+</a>
+
+<a class="button" href="#">
+기기메뉴얼
+</a>
+
+<a class="button" href="#">
+SCADA
+</a>
+
+</div>
+
+</body>
+</html>
